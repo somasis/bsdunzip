@@ -1,5 +1,11 @@
 # bsdunzip, libarchive(1) unzip(1) from FreeBSD
 
+[v3.7.0]: https://github.com/libarchive/libarchive/releases/tag/v3.7.0
+
+> In 2023, libarchive (in [v3.7.0]) released their own port of FreeBSD's unzip,
+> and it is now included in the base distribution. It is recommended that you
+> use their port instead; this repository is now archived.
+
 A [BSD-licensed](LICENSE) implementation of unzip(1), utilizing libarchive(1) as
 the backend for interaction with the ZIP format. It is imported from the
 [FreeBSD tree](https://github.com/freebsd/freebsd), with minor tweaks to make it
